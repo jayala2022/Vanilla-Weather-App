@@ -30,12 +30,38 @@ li {
   list-style: none;
 }
 
+.weather-app-wrapper {
+  margin: 30px auto;
+  max-width: 600px;
+}
+
 .weather-app {
   background-color: #f9f7fe;
   border: 1px solid #dadde1;
   border-radius: 5px;
   box-shadow: 15px 14px 25px rgba(0, 0, 0, 0.2);
   padding: 20px;
-  margin: 30px auto;
-  max-width: 600px;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  height: 64px;
+  margin-right: 5px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
 }
